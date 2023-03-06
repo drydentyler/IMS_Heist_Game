@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "IMS_Heist/1.0.0": {
+        "runtime": {
+          "IMS_Heist.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IMS_Heist/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
