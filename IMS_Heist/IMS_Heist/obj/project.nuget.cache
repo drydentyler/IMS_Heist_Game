@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTjTrzBFQaf+Xmhq00htZ6BHpPQQrnUhV/PLPlZRBS26r9CDRX37nfQF0n/2gFtwTf5MFPQ7eri8qgG4nXvzeg==",
+  "dgSpecHash": "G+8dy5qSXa4a6WvYzM+5wZB8KAJTvJuoNOgWP46hDC2KWog/Il9t4CpYtENuaP16lg0cvZZJaTW79GVk1BYtxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\workspace\\GitHubProjects\\IMS_Heist\\IMS_Heist\\IMS_Heist\\IMS_Heist.csproj",
+  "projectFilePath": "C:\\Users\\Student\\workspace\\GitHubProjects\\IMS_Heist\\IMS_Heist_Game\\IMS_Heist\\IMS_Heist\\IMS_Heist.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
   ],
