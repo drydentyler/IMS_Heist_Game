@@ -23,16 +23,6 @@ namespace HackingWalmart
             }
             return sum;
         }
-
-        //move to menu class
-        public void ViewItemsInCart()
-        {
-            Console.Clear();
-            foreach (KeyValuePair<string, Item> item in cartOfItems)
-            {
-                Console.WriteLine($"{item.Key} | {item.Value.Name} | {item.Value.NewPrice:C2} | {item.Value.QuantityMovedToCart}");
-            }
-        }
         public string EditItemsInCart()
         {
             bool validItemInCart = false;

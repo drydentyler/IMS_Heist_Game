@@ -49,7 +49,7 @@ namespace HackingWalmart
                             SearchInventory();
                             break;
                         case 2:
-                            shoppingCart.ViewItemsInCart();
+                            ViewItemsInCart();
                             CartMenu();
                             break;
                         case 3:
@@ -302,7 +302,7 @@ namespace HackingWalmart
                             validCartOption = true;
                             break;
                         case 2:
-                            shoppingCart.ViewItemsInCart();
+                            ViewItemsInCart();
                             shoppingCart.EditItemsInCart();
                             shoppingCart.RemoveCartItemsOptions(InventorySelection);
                             break;
@@ -391,6 +391,15 @@ namespace HackingWalmart
             Console.WriteLine($"Expiration Date: {userCreditCard.ExpirationDate}");
             Console.WriteLine($"Pin: {userCreditCard.Pin}");
             Console.ReadLine();
+        }
+        //move to menu class
+        public void ViewItemsInCart()
+        {
+            Console.Clear();
+            foreach (KeyValuePair<string, Item> item in shoppingCart.cartOfItems)
+            {
+                Console.WriteLine($"{item.Key} | {item.Value.Name} | {item.Value.NewPrice:C2} | {item.Value.QuantityMovedToCart}");
+            }
         }
     }
 }

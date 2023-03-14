@@ -18,6 +18,7 @@ namespace HackingWalmart
             menu.securitySystem.CreateUsernameAndPassword();
             menu.DisplayGivenCreditInformation();
             Console.WriteLine("Press [ENTER] to continue.");
+            Console.ReadLine();
             Console.Clear();
 
             Console.WriteLine("Loading . . .");
